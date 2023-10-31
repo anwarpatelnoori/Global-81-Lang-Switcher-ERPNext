@@ -12,10 +12,13 @@ app_license = "mit"
 # include js, css files in header of desk.html
 # app_include_css = "/assets/language_switch/css/language_switch.css"
 # app_include_js = "/assets/language_switch/js/language_switch.js"
+app_include_js = ["/assets/language_switch/js/lang_switch_btn_4.js"]
+
+# app_include_css = ["/assets/language_switch/js/lang_switch_btn_2.css"]
 
 # include js, css files in header of web template
 # web_include_css = "/assets/language_switch/css/language_switch.css"
-# web_include_js = "/assets/language_switch/js/language_switch.js"
+# web_include_js = ["/assets/language_switch/js/lang_switch_btn.js"]
 
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "language_switch/public/scss/website"
@@ -219,3 +222,7 @@ app_license = "mit"
 # auth_hooks = [
 #	"language_switch.auth.validate"
 # ]
+
+fixtures = [
+    "Custom Field"
+]
