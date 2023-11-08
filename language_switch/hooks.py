@@ -12,7 +12,9 @@ app_license = "mit"
 # include js, css files in header of desk.html
 # app_include_css = "/assets/language_switch/css/language_switch.css"
 # app_include_js = "/assets/language_switch/js/language_switch.js"
-app_include_js = ["/assets/language_switch/js/lang_switch_btn_4.js"]
+app_include_js = "/assets/language_switch/js/lang_switch_btn.js"
+app_include_css = "/assets/language_switch/css/lang_switch_btn.css"
+
 
 # app_include_css = ["/assets/language_switch/js/lang_switch_btn_2.css"]
 
@@ -78,6 +80,7 @@ app_include_js = ["/assets/language_switch/js/lang_switch_btn_4.js"]
 
 # before_uninstall = "language_switch.uninstall.before_uninstall"
 # after_uninstall = "language_switch.uninstall.after_uninstall"
+# before_uninstall = "language_switch.override_employee.clean_up.cleanup_function"
 
 # Integration Setup
 # ------------------
@@ -120,7 +123,9 @@ app_include_js = ["/assets/language_switch/js/lang_switch_btn_4.js"]
 # override_doctype_class = {
 #	"ToDo": "custom_app.overrides.CustomToDo"
 # }
-
+# override_doctype_class ={
+#     "Employee":"language_switch.override_employee.create_user_from_employee.CreateUserFromEmployee"    
+# }
 # Document Events
 # ---------------
 # Hook on document methods and events
@@ -132,6 +137,7 @@ app_include_js = ["/assets/language_switch/js/lang_switch_btn_4.js"]
 #		"on_trash": "method"
 #	}
 # }
+
 
 # Scheduled Tasks
 # ---------------

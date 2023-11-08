@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class EmployeeToUser(Document):
+class LanguageChange(Document):
 	pass

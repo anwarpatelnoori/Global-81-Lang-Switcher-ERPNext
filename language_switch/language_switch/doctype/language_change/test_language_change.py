@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestEmployeeToUser(FrappeTestCase):
+class TestLanguageChange(FrappeTestCase):
 	pass

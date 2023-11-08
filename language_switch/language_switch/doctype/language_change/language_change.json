@@ -1,27 +1,49 @@
 {
  "actions": [],
- "allow_rename": 1,
+ "autoname": "autoincrement",
  "creation": "2023-10-31 13:03:54.906883",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "name1"
+  "select_language",
+  "name1",
+  "language_list",
+  "tab_2_tab"
  ],
  "fields": [
   {
    "fieldname": "name1",
    "fieldtype": "Data",
-   "label": "Name"
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "select_language",
+   "fieldtype": "Button",
+   "label": "Select Language"
+  },
+  {
+   "fieldname": "tab_2_tab",
+   "fieldtype": "Tab Break",
+   "label": "Tab 2"
+  },
+  {
+   "fieldname": "language_list",
+   "fieldtype": "Table",
+   "label": "Language List",
+   "options": "Language Child Table"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-10-31 13:03:54.906883",
+ "modified": "2023-11-07 11:09:48.918214",
  "modified_by": "Administrator",
  "module": "Language Switch",
- "name": "Employee To User",
+ "name": "Language Change",
+ "naming_rule": "Autoincrement",
  "owner": "Administrator",
  "permissions": [
   {
