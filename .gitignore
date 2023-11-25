@@ -6,3 +6,5 @@ tags
 node_modules
 __pycache__
 language_switch/override_employee/
+language_switch/public/js/lang_switch_rough_code.js
+git 

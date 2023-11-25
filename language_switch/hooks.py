@@ -12,8 +12,8 @@ app_license = "mit"
 # include js, css files in header of desk.html
 # app_include_css = "/assets/language_switch/css/language_switch.css"
 # app_include_js = "/assets/language_switch/js/language_switch.js"
-app_include_js = "/assets/language_switch/js/lang_switch_btn.js"
-app_include_css = "/assets/language_switch/css/lang_switch_btn.css"
+app_include_js = "/assets/language_switch/js/select_language.js"
+app_include_css = "/assets/language_switch/css/select_language.css"
 
 
 # app_include_css = ["/assets/language_switch/js/lang_switch_btn_2.css"]
